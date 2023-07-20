@@ -74,6 +74,7 @@ label{
 
 .completed{
     text-decoration: line-through;
+    text-decoration-color: red;
 }
 
 .todo{
