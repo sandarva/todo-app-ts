@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>To Do App</title>
+</head>
+<body>
+    <div class="container flex">
+        <form id="todo__form">
+            <div class="form__element">
+                <label for="title">Todo Title</label>
+                <input type="text" name="title" id="title" placeholder="Eg: Cook">
+            </div>
+            <div class="form__element">
+                <label for="description">Todo Description</label>
+                <textarea name="description" id="desc" placeholder="Eg: Cook Oyster"></textarea>
+            </div>
+            <input type="submit" value="Submit" id="form__submit">
+        </form>
+        <div class="todo">
+            <h1>TASKS</h1>
+            <ul id="todos__list">
+            </ul>
+        </div>
+    </div>
+    <script src="./dist/bundle.js" type="module"></script>
+</body>
+</html>
